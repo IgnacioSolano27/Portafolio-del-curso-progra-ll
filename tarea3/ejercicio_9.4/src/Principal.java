@@ -5,7 +5,7 @@ public class Principal {
 
     Cuenta objeto1 = new Cuenta();
     int opcion = 0;
-
+ 
     do{
       try{
 

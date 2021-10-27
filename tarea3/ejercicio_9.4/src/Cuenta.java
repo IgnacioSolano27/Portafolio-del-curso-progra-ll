@@ -4,7 +4,7 @@ public class Cuenta implements Acciones{
 
    private int monto;
    private int total = 0;
- 
+  
   //Método depositar traido de la interfaz
   public void depositar() {
 
