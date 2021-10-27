@@ -2,16 +2,16 @@ import javax.swing.JOptionPane;
 
 public class Cuenta implements Acciones{
 
-   int monto;
-   int total = 0;
-
+   private int monto;
+   private int total = 0;
+ 
   //Método depositar traido de la interfaz
   public void depositar() {
 
     monto = Integer.parseInt(JOptionPane.showInputDialog(null,
        "Ingrese el monto en colones que desea depositar\n\n"
       +"El total de dinero en la cuenta es de ₡ "+total,
-      "Realizar un deposito", 3));
+       "Realizar un deposito", 3));
 
     if(monto<1){
       JOptionPane.showMessageDialog(null,
@@ -57,7 +57,7 @@ public class Cuenta implements Acciones{
 
   public void mostrarEstadoCuenta() {
     JOptionPane.showMessageDialog(null,
-     "El total de dinero que posee la cuenta actualmente es de: "+total,
+     "El total de dinero que posee la cuenta actualmente es de: ₡ "+total,
      "Balance de cuenta", 3);
   }
 
