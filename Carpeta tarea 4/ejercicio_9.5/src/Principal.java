@@ -19,6 +19,7 @@ public class Principal {
                     +"Elije una acción a realizar:", "Menu de opciones",3));
     
             switch (opcion){
+              
               case 1: 
                 objeto1.Inicializar();               
                 break;

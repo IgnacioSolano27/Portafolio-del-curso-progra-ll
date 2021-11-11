@@ -5,7 +5,7 @@ public class pelota extends Objetos{
   public void subir() {
     JOptionPane.showMessageDialog(null,
       "La pelota puede subir al lanzarla hacia arriba");
-  }
+  } 
   @Override  
   public void bajar() {
     JOptionPane.showMessageDialog(null,
