@@ -9,7 +9,7 @@ public class App{
 
     int opcion = 0;
     ClienteCredito cliCre = new ClienteCredito();
-    VCredito venCre = new VCredito();
+    VCredito venCre;
     VContado venCon = new VContado();
   
     do{
@@ -28,6 +28,7 @@ public class App{
             venCon.menu();
             break;
           case 3 :
+            venCre = new VCredito(cliCre);
             venCre.menu();
             break;
           case 4 :

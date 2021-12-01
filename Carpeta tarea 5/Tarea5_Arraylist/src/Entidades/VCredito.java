@@ -30,7 +30,9 @@ public class VCredito extends Venta implements Elegible, Mostrable, Agregable, V
     
   }
 
-  public VCredito() {}
+  public VCredito(ClienteCredito nuevoCliente) {
+    cliente = nuevoCliente;
+  }
 
   //Obtener fecha y hora actual
   
